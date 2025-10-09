@@ -1,6 +1,5 @@
 import './style.css';
 import Logo from '../../assets/logo.svg';
-import Burger from '../../assets/burger.svg';
 
 const Header = () => {
     return (
@@ -16,7 +15,6 @@ const Header = () => {
                 <a href="#" className="header_link">Позірк</a>
                 <a href="#" className="header_link">Треш</a>     
                </nav>
-               <button className="header_button">{Burger}</button>
             </div>
         </header>
     </>
