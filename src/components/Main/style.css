@@ -1,7 +1,15 @@
-.main__container {
-    background-image: url('../../img/header-image.png');
+.main_container {
+    background: linear-gradient(rgba(17, 16, 35, 0.6), rgba(17, 16, 35, 0.6)),
+    url('../../img/header-image.png') center center / cover no-repeat;
+    width: 198.3vh;
+    height: 80vh;
     border-top: 1px solid transparent;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 16px 80px;
 }
 
 .main_text {
@@ -10,5 +18,14 @@
     font-weight: 700;
     line-height: 45px;
     color: white;
+}
+
+.main_title {
+    margin-top: 16px;
+    font-size: 64px;
+    line-height: 1.1;
+    font-weight: 800;
+    color: #ffffff;
+    max-width: 1100px;
 }
 

@@ -1,3 +1,4 @@
+import './style.css';
 import Main from '../Main/Main.jsx';
 
 const MainContainer = () => {
