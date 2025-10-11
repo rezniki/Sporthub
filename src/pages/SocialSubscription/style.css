@@ -1,0 +1,132 @@
+.social-subscription {
+    display: flex;
+    gap: 40px;
+    padding: 40px 20px;
+    background-color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.social-section,
+.subscription-section {
+    flex: 1;
+}
+
+.section-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    margin: 0 0 20px 0;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    background-color: #dc2626;
+    padding: 20px;
+    border-radius: 8px;
+    justify-content: center;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
+
+.social-icon img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.subscription-form {
+    background-color: black;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.email-input {
+    flex: 1;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    padding: 10px 0;
+    font-size: 16px;
+    outline: none;
+}
+
+.email-input::placeholder {
+    color: white;
+    opacity: 0.8;
+}
+
+.subscribe-button {
+    background-color: #dc2626;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.subscribe-button:hover {
+    background-color: #b91c1c;
+}
+
+@media (max-width: 768px) {
+    .social-subscription {
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px 15px;
+    }
+    
+    .social-icons {
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 15px;
+    }
+    
+    .social-icon {
+        width: 35px;
+        height: 35px;
+    }
+    
+    .social-icon img {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .subscription-form {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px;
+    }
+    
+    .email-input {
+        width: 100%;
+    }
+    
+    .subscribe-button {
+        width: 100%;
+    }
+}

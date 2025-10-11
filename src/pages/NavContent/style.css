@@ -1,0 +1,45 @@
+.nav-content {
+    width: 100%;
+    background-color: #dc2626;
+    padding: 20px 0;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 8px 16px;
+    transition: opacity 0.3s ease;
+    text-transform: uppercase;
+    font-family: inherit;
+}
+
+.nav-button:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    .nav-buttons {
+        gap: 10px;
+        padding: 0 10px;
+    }
+    
+    .nav-button {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+}
