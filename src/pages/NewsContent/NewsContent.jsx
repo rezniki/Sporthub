@@ -3,10 +3,8 @@ import './style.css';
 const NewsContent = () => {
     return (
         <div className="news-content">
-            <div className="news-header">
-                <div className="red-line"></div>
-                <h2 className="news-title">ПОСЛЕДНЕЕ</h2>
-            </div>
+            
+            <h2 className="news-title">ПОСЛЕДНЕЕ</h2>
             
             <div className="news-grid">
                 <div className="news-item">
