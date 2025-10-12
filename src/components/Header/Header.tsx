@@ -1,5 +1,6 @@
 import './style.css';
 import Logo from '../../assets/logo.svg';
+import Burger from '../../assets/burger.svg';
 
 const Header = () => {
       return (
@@ -13,8 +14,10 @@ const Header = () => {
                   <a href="#" className="header_link">Легенды</a>
                   <a href="#" className="header_link">зож и туризм</a>
                   <a href="#" className="header_link">Позірк</a>
-                  <a href="#" className="header_link">Треш</a>     
+                  <a href="#" className="header_link">Треш</a>
+                  <img className='header_burger' src={Burger} alt="Burger" />
                 </nav>
+                
               </div>
           </header>
       </>

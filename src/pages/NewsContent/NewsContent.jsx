@@ -9,7 +9,7 @@ const NewsContent = () => {
             <div className="news-grid">
                 <div className="news-item">
                     <div className="news-image">
-                        <img src="/src/img/Mask Group.png" alt="Mountain climber" />
+                        <img src="/src/img/Mask-Group.png" alt="Mountain climber" />
                     </div>
                     <div className="news-text">
                         <div className="news-meta">Сегодня | #БОЛЕЛЬЩИКАМ</div>
@@ -42,7 +42,7 @@ const NewsContent = () => {
 
                 <div className="news-item">
                     <div className="news-image">
-                        <img src="/src/img/Mask Group2.png" alt="Mountain climber" />
+                        <img src="/src/img/Mask-Group2.png" alt="Mountain climber" />
                     </div>
                     <div className="news-text">
                         <div className="news-meta">Сегодня | #БОЛЕЛЬЩИКАМ</div>
