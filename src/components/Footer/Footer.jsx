@@ -15,25 +15,25 @@ const FooterBlock = () => {
             
             <div className="footer-social">
                 <div className="social-icon">
-                    <img src="/src/img/vk1.png" alt="VK" />
+                    <img src="/src/assets/vk1.svg" alt="VK" />
                 </div>
                 <div className="social-icon">
-                    <img src="/src/img/facebook1.png" alt="Facebook" />
+                    <img src="/src/assets/facebook1.svg" alt="Facebook" />
                 </div>
                 <div className="social-icon">
-                    <img src="/src/img/instagram1.png" alt="Instagram" />
+                    <img src="/src/assets/instagram1.svg" alt="Instagram" />
                 </div>
                 <div className="social-icon">
-                    <img src="/src/img/youtube1.png" alt="YouTube" />
+                    <img src="/src/assets/youtube1.svg" alt="YouTube" />
                 </div>
                 <div className="social-icon">
-                    <img src="/src/img/telegram1.png" alt="Telegram" />
+                    <img src="/src/assets/telegram1.svg" alt="Telegram" />
                 </div>
                 <div className="social-icon">
-                    <img src="/src/img/tiktok1.png" alt="TikTok" />
+                    <img src="/src/assets/tiktok1.svg" alt="TikTok" />
                 </div>
                 <div className="social-icon">
-                    <img src="/src/img/twitter1.png" alt="Twitter" />
+                    <img src="/src/assets/twitter1.svg" alt="Twitter" />
                 </div>
             </div>
             
