@@ -6,7 +6,7 @@ import ProfileBlocks from '../../pages/ProfileBlocks/ProfileBlocks';
 import MainNewsContent from '../../pages/MainNewsContent/MainNewsContent';
 import SocialSubscription from '../../pages/SocialSubscription/SocialSubscription';
 import FooterNewsContent from '../../pages/FooterNewsContent/FooterNewsContent';
-import FooterBlock from '../../pages/FooterBlock/FooterBlock';
+import Footer from '../Footer/Footer.jsx';
 
 const MainContainer = () => {
     return (
@@ -18,7 +18,7 @@ const MainContainer = () => {
             <MainNewsContent/>
             <SocialSubscription/>
             <FooterNewsContent/>
-            <FooterBlock/>
+            <Footer/>
         </main>
     );
 }
