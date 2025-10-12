@@ -7,25 +7,25 @@ const SocialSubscription = () => {
                 <h3 className="section-title">СОЦСЕТИ</h3>
                 <div className="social-icons">
                     <div className="social-icon">
-                        <img src="/src/img/vk.png" alt="VK" />
+                        <img src="/src/assets/vk.svg" alt="VK" />
                     </div>
                     <div className="social-icon">
-                        <img src="/src/img/facebook.png" alt="Facebook" />
+                        <img src="/src/assets/facebook.svg" alt="Facebook" />
                     </div>
                     <div className="social-icon">
-                        <img src="/src/img/instagram.png" alt="Instagram" />
+                        <img src="/src/assets/instagram.svg" alt="Instagram" />
                     </div>
                     <div className="social-icon">
-                        <img src="/src/img/youtube 1.png" alt="YouTube" />
+                        <img src="/src/assets/youtube 1.svg" alt="YouTube" />
                     </div>
                     <div className="social-icon">
-                        <img src="/src/img/telegram.png" alt="Telegram" />
+                        <img src="/src/assets/telegram.svg" alt="Telegram" />
                     </div>
                     <div className="social-icon">
-                        <img src="/src/img/tiktok.png" alt="TikTok" />
+                        <img src="/src/assets/tiktok.svg" alt="TikTok" />
                     </div>
                     <div className="social-icon">
-                        <img src="/src/img/twitter.png" alt="Twitter" />
+                        <img src="/src/assets/twitter.svg" alt="Twitter" />
                     </div>
                 </div>
             </div>

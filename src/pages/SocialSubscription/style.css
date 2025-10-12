@@ -30,7 +30,6 @@
 .social-icon {
     width: 40px;
     height: 40px;
-    background-color: white;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -44,8 +43,8 @@
 }
 
 .social-icon img {
-    width: 24px;
-    height: 24px;
+    width: 45px;
+    height: 45px;
     object-fit: contain;
 }
 
