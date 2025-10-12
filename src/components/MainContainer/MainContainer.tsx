@@ -5,6 +5,7 @@ import NewsContent from '../../pages/NewsContent/NewsContent';
 import ProfileBlocks from '../../pages/ProfileBlocks/ProfileBlocks';
 import MainNewsContent from '../../pages/MainNewsContent/MainNewsContent';
 import SocialSubscription from '../../pages/SocialSubscription/SocialSubscription';
+import FooterNewsContent from '../../pages/FooterNewsContent/FooterNewsContent';
 import FooterBlock from '../../pages/FooterBlock/FooterBlock';
 
 const MainContainer = () => {
@@ -16,6 +17,7 @@ const MainContainer = () => {
             <ProfileBlocks/>
             <MainNewsContent/>
             <SocialSubscription/>
+            <FooterNewsContent/>
             <FooterBlock/>
         </main>
     );
