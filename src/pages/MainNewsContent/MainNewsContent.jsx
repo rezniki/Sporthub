@@ -1,13 +1,13 @@
 import './style.css';
 
-const Main = () => {
+const MainNewsContent = () => {
     return (
         <>
-            <section className="main_container"> 
-                <p className="main_text">
+            <section className="main_news_container"> 
+                <p className="main_news_text">
                     #Экстрим
                 </p>
-                <h1 className="main_title">
+                <h1 className="main_news_title">
                     Юрий Поклад: «Динамо» как бы начинает работать заново
                 </h1>
             </section>
@@ -15,4 +15,4 @@ const Main = () => {
     );
 }
 
-export default Main
+export default MainNewsContent
