@@ -4,56 +4,65 @@ import Man2 from '../../assets/img/Man2.png';
 import Man3 from '../../assets/img/Man3.png';
 import Man4 from '../../assets/img/Man1.png';
 import Main1 from '../../assets/img/main-image1.png';
-import Main2 from '../../assets/img/main-image2.png'
+import Main2 from '../../assets/img/main-image2.png';
+import Frame from '../../assets/Frame.svg';
 
 const ProfileBlocks = () => {
     return (
         <div className="profile-blocks">
             <div className="profile-item">
-                <div className="quote-icon">"</div>
-                <div className="profile-image">
-                    <img src={Man1} alt="Alexey Mikhailichenko" />
-                </div>
-                <div className="profile-info">
-                    <h3 className="profile-name">Алексей Михайличенко</h3>
-                    <p className="profile-title">ГЛАВНЫЙ ТРЕНЕР Ф.К. ДИНАМО</p>
-                    <p className="profile-quote">Сергей Корниленко станет играющим тренером «Крыльев советов»</p>
-                </div>
-            </div>
-
-            <div className="profile-item">
-                <div className="quote-icon">"</div>
-                <div className="profile-image">
-                    <img src={Man2} alt="Alexey Mikhailichenko" />
-                </div>
-                <div className="profile-info">
-                    <h3 className="profile-name">Алексей Михайличенко</h3>
-                    <p className="profile-title">ГЛАВНЫЙ ТРЕНЕР Ф.К. ДИНАМО</p>
-                    <p className="profile-quote">«Динамо» как бы начинает работать заново</p>
+                <img className='profile-frame' src={Frame} alt="Frame" />
+                <div className="profile-item-man">
+                    <div className="profile-image">
+                        <img src={Man1} alt="Alexey Mikhailichenko" />
+                    </div>
+                    <div className="profile-info">
+                        <h3 className="profile-name">Алексей Михайличенко</h3>
+                        <p className="profile-title">ГЛАВНЫЙ ТРЕНЕР Ф.К. ДИНАМО</p>
+                        <p className="profile-quote">Сергей Корниленко станет играющим тренером «Крыльев советов»</p>
+                    </div>
                 </div>
             </div>
 
             <div className="profile-item">
-                <div className="quote-icon">"</div>
-                <div className="profile-image">
-                    <img src={Man3} alt="Alexey Mikhailichenko" />
-                </div>
-                <div className="profile-info">
-                    <h3 className="profile-name">Алексей Михайличенко</h3>
-                    <p className="profile-title">ГЛАВНЫЙ ТРЕНЕР Ф.К. ДИНАМО</p>
-                    <p className="profile-quote">Сергей Корниленко станет играющим тренером «Крыльев советов»</p>
+                <img className='profile-frame' src={Frame} alt="Frame" />
+                <div className="profile-item-man">
+                    <div className="profile-image">
+                        <img src={Man2} alt="Alexey Mikhailichenko" />
+                    </div>
+                    <div className="profile-info">
+                        <h3 className="profile-name">Алексей Михайличенко</h3>
+                        <p className="profile-title">ГЛАВНЫЙ ТРЕНЕР Ф.К. ДИНАМО</p>
+                        <p className="profile-quote">Сергей Корниленко станет играющим тренером «Крыльев советов»</p>
+                    </div>
                 </div>
             </div>
 
             <div className="profile-item">
-                <div className="quote-icon">"</div>
-                <div className="profile-image">
-                    <img src={Man4} alt="Alexey Mikhailichenko" />
+                <img className='profile-frame' src={Frame} alt="Frame" />
+                <div className="profile-item-man">
+                    <div className="profile-image">
+                        <img src={Man3} alt="Alexey Mikhailichenko" />
+                    </div>
+                    <div className="profile-info">
+                        <h3 className="profile-name">Алексей Михайличенко</h3>
+                        <p className="profile-title">ГЛАВНЫЙ ТРЕНЕР Ф.К. ДИНАМО</p>
+                        <p className="profile-quote">Сергей Корниленко станет играющим тренером «Крыльев советов»</p>
+                    </div>
                 </div>
-                <div className="profile-info">
-                    <h3 className="profile-name">Алексей Михайличенко</h3>
-                    <p className="profile-title">ГЛАВНЫЙ ТРЕНЕР Ф.К. ДИНАМО</p>
-                    <p className="profile-quote">«Динамо» как бы начинает работать заново</p>
+            </div>
+
+            <div className="profile-item">
+                <img className='profile-frame' src={Frame} alt="Frame" />
+                <div className="profile-item-man">
+                    <div className="profile-image">
+                        <img src={Man4} alt="Alexey Mikhailichenko" />
+                    </div>
+                    <div className="profile-info">
+                        <h3 className="profile-name">Алексей Михайличенко</h3>
+                        <p className="profile-title">ГЛАВНЫЙ ТРЕНЕР Ф.К. ДИНАМО</p>
+                        <p className="profile-quote">Сергей Корниленко станет играющим тренером «Крыльев советов»</p>
+                    </div>
                 </div>
             </div>
 
