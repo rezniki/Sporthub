@@ -1,5 +1,12 @@
 import './style.css';
 import Group from '../../assets/Group.svg';
+import VK1 from '../../assets/vk1.svg';
+import Facebook1 from '../../assets/facebook1.svg';
+import Instagram1 from '../../assets/instagram1.svg';
+import Youtube1 from '../../assets/youtube1.svg';
+import Telegram1 from '../../assets/telegram1.svg';
+import Tiktok1 from '../../assets/tiktok1.svg';
+import Twitter1 from '../../assets/twitter1.svg';
 
 const FooterBlock = () => {
     return (
@@ -15,25 +22,25 @@ const FooterBlock = () => {
             
             <div className="footer-social">
                 <div className="social-icon">
-                    <img src="/src/assets/vk1.svg" alt="VK" />
+                    <img src={VK1} alt="VK" />
                 </div>
                 <div className="social-icon">
-                    <img src="/src/assets/facebook1.svg" alt="Facebook" />
+                    <img src={Facebook1} alt="Facebook" />
                 </div>
                 <div className="social-icon">
-                    <img src="/src/assets/instagram1.svg" alt="Instagram" />
+                    <img src={Instagram1} alt="Instagram" />
                 </div>
                 <div className="social-icon">
-                    <img src="/src/assets/youtube1.svg" alt="YouTube" />
+                    <img src={Youtube1} alt="YouTube" />
                 </div>
                 <div className="social-icon">
-                    <img src="/src/assets/telegram1.svg" alt="Telegram" />
+                    <img src={Telegram1} alt="Telegram" />
                 </div>
                 <div className="social-icon">
-                    <img src="/src/assets/tiktok1.svg" alt="TikTok" />
+                    <img src={Tiktok1} alt="TikTok" />
                 </div>
                 <div className="social-icon">
-                    <img src="/src/assets/twitter1.svg" alt="Twitter" />
+                    <img src={Twitter1} alt="Twitter" />
                 </div>
             </div>
             

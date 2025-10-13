@@ -1,4 +1,10 @@
 import './style.css';
+import Man1 from '../../assets/img/Man1.png';
+import Man2 from '../../assets/img/Man2.png';
+import Man3 from '../../assets/img/Man3.png';
+import Man4 from '../../assets/img/Man1.png';
+import Main1 from '../../assets/img/main-image1.png';
+import Main2 from '../../assets/img/main-image2.png'
 
 const ProfileBlocks = () => {
     return (
@@ -6,7 +12,7 @@ const ProfileBlocks = () => {
             <div className="profile-item">
                 <div className="quote-icon">"</div>
                 <div className="profile-image">
-                    <img src="/src/img/Man1.png" alt="Alexey Mikhailichenko" />
+                    <img src={Man1} alt="Alexey Mikhailichenko" />
                 </div>
                 <div className="profile-info">
                     <h3 className="profile-name">Алексей Михайличенко</h3>
@@ -18,7 +24,7 @@ const ProfileBlocks = () => {
             <div className="profile-item">
                 <div className="quote-icon">"</div>
                 <div className="profile-image">
-                    <img src="/src/img/Man2.png" alt="Alexey Mikhailichenko" />
+                    <img src={Man2} alt="Alexey Mikhailichenko" />
                 </div>
                 <div className="profile-info">
                     <h3 className="profile-name">Алексей Михайличенко</h3>
@@ -30,7 +36,7 @@ const ProfileBlocks = () => {
             <div className="profile-item">
                 <div className="quote-icon">"</div>
                 <div className="profile-image">
-                    <img src="/src/img/Man3.png" alt="Alexey Mikhailichenko" />
+                    <img src={Man3} alt="Alexey Mikhailichenko" />
                 </div>
                 <div className="profile-info">
                     <h3 className="profile-name">Алексей Михайличенко</h3>
@@ -42,7 +48,7 @@ const ProfileBlocks = () => {
             <div className="profile-item">
                 <div className="quote-icon">"</div>
                 <div className="profile-image">
-                    <img src="/src/img/Man1.png" alt="Alexey Mikhailichenko" />
+                    <img src={Man4} alt="Alexey Mikhailichenko" />
                 </div>
                 <div className="profile-info">
                     <h3 className="profile-name">Алексей Михайличенко</h3>
@@ -54,7 +60,7 @@ const ProfileBlocks = () => {
             <div className="news-grid">
                 <div className="news-item">
                     <div className="news-image">
-                            <img src="/src/img/main-image2.png" alt="Skier" />
+                            <img src={Main2} alt="Skier" />
                     </div>
                     <div className="news-text">
                         <div className="news-meta">09.07.19 | #ЛЮБИТЕЛЬСКИЙ_СПОРТ</div>
@@ -65,7 +71,7 @@ const ProfileBlocks = () => {
 
                 <div className="news-item">
                     <div className="news-image">
-                        <img src="/src/img/main-image1.png" alt="Football players" />
+                        <img src={Main1} alt="Football players" />
                     </div>
                     <div className="news-text">
                         <div className="news-meta">09.07.19 | #ПРОФЕССИОНАЛЬНЫЙ_СПОРТ</div>

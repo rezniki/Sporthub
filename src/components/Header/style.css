@@ -41,7 +41,7 @@
 }
 
 .header_link:hover {
-    color: rgb(5, 210, 210);
+    color: #646cff;
 }
 
 @media (max-width: 768px) {

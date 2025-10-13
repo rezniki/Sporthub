@@ -1,4 +1,8 @@
 import './style.css';
+import Mask1 from '../../assets/img/Mask-Group.png';
+import Mask2 from '../../assets/img/Mask-Group2.png';
+import Main1 from '../../assets/img/main-image1.png';
+import Main2 from '../../assets/img/main-image2.png';
 
 const NewsContent = () => {
     return (
@@ -9,7 +13,7 @@ const NewsContent = () => {
             <div className="news-grid">
                 <div className="news-item">
                     <div className="news-image">
-                        <img src="/src/img/Mask-Group.png" alt="Mountain climber" />
+                        <img src={Mask1} alt="Mountain climber" />
                     </div>
                     <div className="news-text">
                         <div className="news-meta">Сегодня | #БОЛЕЛЬЩИКАМ</div>
@@ -20,7 +24,7 @@ const NewsContent = () => {
 
                 <div className="news-item">
                     <div className="news-image">
-                        <img src="/src/img/main-image2.png" alt="Skier" />
+                        <img src={Main2} alt="Skier" />
                     </div>
                     <div className="news-text">
                         <div className="news-meta">09.07.19 | #ЛЮБИТЕЛЬСКИЙ_СПОРТ</div>
@@ -31,7 +35,7 @@ const NewsContent = () => {
 
                 <div className="news-item">
                     <div className="news-image">
-                        <img src="/src/img/main-image1.png" alt="Football players" />
+                        <img src={Main1} alt="Football players" />
                     </div>
                     <div className="news-text">
                         <div className="news-meta">09.07.19 | #ПРОФЕССИОНАЛЬНЫЙ_СПОРТ</div>
@@ -42,7 +46,7 @@ const NewsContent = () => {
 
                 <div className="news-item">
                     <div className="news-image">
-                        <img src="/src/img/Mask-Group2.png" alt="Mountain climber" />
+                        <img src={Mask2} alt="Mountain climber" />
                     </div>
                     <div className="news-text">
                         <div className="news-meta">Сегодня | #БОЛЕЛЬЩИКАМ</div>

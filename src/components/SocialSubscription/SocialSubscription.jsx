@@ -1,4 +1,11 @@
 import './style.css';
+import VK from '../../assets/vk.svg';
+import Facebook from '../../assets/facebook.svg';
+import Instagram from '../../assets/instagram.svg';
+import Youtube from '../../assets/youtube 1.svg';
+import Telegram from '../../assets/telegram.svg';
+import Tiktok from '../../assets/tiktok.svg';
+import Twitter from '../../assets/twitter.svg';
 
 const SocialSubscription = () => {
     return (
@@ -7,25 +14,25 @@ const SocialSubscription = () => {
                 <h3 className="section-title">СОЦСЕТИ</h3>
                 <div className="social-icons">
                     <div className="social-icon">
-                        <img src="/src/assets/vk.svg" alt="VK" />
+                        <img src={VK} alt="VK"/>
                     </div>
                     <div className="social-icon">
-                        <img src="/src/assets/facebook.svg" alt="Facebook" />
+                        <img src={Facebook} alt="Facebook" />
                     </div>
                     <div className="social-icon">
-                        <img src="/src/assets/instagram.svg" alt="Instagram" />
+                        <img src={Instagram} alt="Instagram" />
                     </div>
                     <div className="social-icon">
-                        <img src="/src/assets/youtube 1.svg" alt="YouTube" />
+                        <img src={Youtube} alt="YouTube" />
                     </div>
                     <div className="social-icon">
-                        <img src="/src/assets/telegram.svg" alt="Telegram" />
+                        <img src={Telegram} alt="Telegram" />
                     </div>
                     <div className="social-icon">
-                        <img src="/src/assets/tiktok.svg" alt="TikTok" />
+                        <img src={Tiktok} alt="TikTok" />
                     </div>
                     <div className="social-icon">
-                        <img src="/src/assets/twitter.svg" alt="Twitter" />
+                        <img src={Twitter} alt="Twitter" />
                     </div>
                 </div>
             </div>
