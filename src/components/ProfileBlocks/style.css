@@ -138,3 +138,19 @@
         width: 30%;
     }
 }
+
+@media (max-width: 320px) {
+
+    .profile-blocks {
+        width: 97.6%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        padding: 20px 15px;
+    }
+
+    .profile-item {
+        max-width: 30%;
+    }
+}

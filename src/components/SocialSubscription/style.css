@@ -126,3 +126,15 @@
         width: 100%;
     }
 }
+
+@media (max-width: 320px) {
+
+    .social-subscription {
+        display: block;
+        width: 97.6%;
+    }
+
+    .social-icons {
+        margin-bottom: 30px;
+    }
+}

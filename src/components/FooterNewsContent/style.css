@@ -38,3 +38,10 @@
         font-size: 28px;
     }
 }
+
+@media (max-width: 320px) {
+
+    .footer_news_container {
+        width: 97.6%;
+    }
+}
