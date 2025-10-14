@@ -82,6 +82,7 @@
     
     .news-title {
         font-size: 24px;
+        width: 96.3%;
     }
     
     .news-image {
@@ -91,8 +92,9 @@
     .news-text {
         padding: 15px;
     }
-    
-    .news-headline {
+
+    .news-meta {
         font-size: 16px;
     }
+
 }

@@ -124,8 +124,10 @@
 }
 
 @media (max-width: 768px) {
+    
     .profile-blocks {
-        flex-direction: column;
+        display: flex;
+        justify-content: center;
         align-items: center;
         gap: 15px;
         padding: 20px 15px;
@@ -133,6 +135,6 @@
     
     .profile-item {
         max-width: 100%;
-        width: 100%;
+        width: 30%;
     }
 }
